@@ -1,9 +1,9 @@
 #include <plib.h>
 
-#include "PmodOLED.h"
-#include "OledChar.h"
-#include "OledGrph.h"
-#include "delay.h"
+#include "../mylib/PmodOLED.h"
+#include "../mylib/OledChar.h"
+#include "../mylib/OledGrph.h"
+#include "../mylib/delay.h"
 
 #pragma config ICESEL       = ICS_PGx1  // ICE/ICD Comm Channel Select
 #pragma config DEBUG        = OFF       // Debugger Disabled Kit

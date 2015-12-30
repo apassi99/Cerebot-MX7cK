@@ -45,17 +45,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=main.c delay.c OledChar.c OledGrph.c PmodOLED.c FillPat.c ChrFont0.c
+SOURCEFILES_QUOTED_IF_SPACED=main.c ../mylib/ChrFont0.c ../mylib/delay.c ../mylib/FillPat.c ../mylib/OledChar.c ../mylib/OledGrph.c ../mylib/PmodOLED.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/delay.o ${OBJECTDIR}/OledChar.o ${OBJECTDIR}/OledGrph.o ${OBJECTDIR}/PmodOLED.o ${OBJECTDIR}/FillPat.o ${OBJECTDIR}/ChrFont0.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/delay.o.d ${OBJECTDIR}/OledChar.o.d ${OBJECTDIR}/OledGrph.o.d ${OBJECTDIR}/PmodOLED.o.d ${OBJECTDIR}/FillPat.o.d ${OBJECTDIR}/ChrFont0.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/_ext/2109661110/ChrFont0.o ${OBJECTDIR}/_ext/2109661110/delay.o ${OBJECTDIR}/_ext/2109661110/FillPat.o ${OBJECTDIR}/_ext/2109661110/OledChar.o ${OBJECTDIR}/_ext/2109661110/OledGrph.o ${OBJECTDIR}/_ext/2109661110/PmodOLED.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d ${OBJECTDIR}/_ext/2109661110/delay.o.d ${OBJECTDIR}/_ext/2109661110/FillPat.o.d ${OBJECTDIR}/_ext/2109661110/OledChar.o.d ${OBJECTDIR}/_ext/2109661110/OledGrph.o.d ${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/delay.o ${OBJECTDIR}/OledChar.o ${OBJECTDIR}/OledGrph.o ${OBJECTDIR}/PmodOLED.o ${OBJECTDIR}/FillPat.o ${OBJECTDIR}/ChrFont0.o
+OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/_ext/2109661110/ChrFont0.o ${OBJECTDIR}/_ext/2109661110/delay.o ${OBJECTDIR}/_ext/2109661110/FillPat.o ${OBJECTDIR}/_ext/2109661110/OledChar.o ${OBJECTDIR}/_ext/2109661110/OledGrph.o ${OBJECTDIR}/_ext/2109661110/PmodOLED.o
 
 # Source Files
-SOURCEFILES=main.c delay.c OledChar.c OledGrph.c PmodOLED.c FillPat.c ChrFont0.c
+SOURCEFILES=main.c ../mylib/ChrFont0.c ../mylib/delay.c ../mylib/FillPat.c ../mylib/OledChar.c ../mylib/OledGrph.c ../mylib/PmodOLED.c
 
 
 CFLAGS=
@@ -100,41 +100,41 @@ ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/main.o 
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c     
 	
-${OBJECTDIR}/delay.o: delay.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/delay.o.d 
-	@${RM} ${OBJECTDIR}/delay.o 
-	@${FIXDEPS} "${OBJECTDIR}/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/delay.o.d" -o ${OBJECTDIR}/delay.o delay.c     
+${OBJECTDIR}/_ext/2109661110/ChrFont0.o: ../mylib/ChrFont0.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/ChrFont0.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d" -o ${OBJECTDIR}/_ext/2109661110/ChrFont0.o ../mylib/ChrFont0.c     
 	
-${OBJECTDIR}/OledChar.o: OledChar.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/OledChar.o.d 
-	@${RM} ${OBJECTDIR}/OledChar.o 
-	@${FIXDEPS} "${OBJECTDIR}/OledChar.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/OledChar.o.d" -o ${OBJECTDIR}/OledChar.o OledChar.c     
+${OBJECTDIR}/_ext/2109661110/delay.o: ../mylib/delay.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/delay.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/delay.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/delay.o.d" -o ${OBJECTDIR}/_ext/2109661110/delay.o ../mylib/delay.c     
 	
-${OBJECTDIR}/OledGrph.o: OledGrph.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/OledGrph.o.d 
-	@${RM} ${OBJECTDIR}/OledGrph.o 
-	@${FIXDEPS} "${OBJECTDIR}/OledGrph.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/OledGrph.o.d" -o ${OBJECTDIR}/OledGrph.o OledGrph.c     
+${OBJECTDIR}/_ext/2109661110/FillPat.o: ../mylib/FillPat.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/FillPat.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/FillPat.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/FillPat.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/FillPat.o.d" -o ${OBJECTDIR}/_ext/2109661110/FillPat.o ../mylib/FillPat.c     
 	
-${OBJECTDIR}/PmodOLED.o: PmodOLED.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/PmodOLED.o.d 
-	@${RM} ${OBJECTDIR}/PmodOLED.o 
-	@${FIXDEPS} "${OBJECTDIR}/PmodOLED.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/PmodOLED.o.d" -o ${OBJECTDIR}/PmodOLED.o PmodOLED.c     
+${OBJECTDIR}/_ext/2109661110/OledChar.o: ../mylib/OledChar.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledChar.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledChar.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/OledChar.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/OledChar.o.d" -o ${OBJECTDIR}/_ext/2109661110/OledChar.o ../mylib/OledChar.c     
 	
-${OBJECTDIR}/FillPat.o: FillPat.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/FillPat.o.d 
-	@${RM} ${OBJECTDIR}/FillPat.o 
-	@${FIXDEPS} "${OBJECTDIR}/FillPat.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FillPat.o.d" -o ${OBJECTDIR}/FillPat.o FillPat.c     
+${OBJECTDIR}/_ext/2109661110/OledGrph.o: ../mylib/OledGrph.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledGrph.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledGrph.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/OledGrph.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/OledGrph.o.d" -o ${OBJECTDIR}/_ext/2109661110/OledGrph.o ../mylib/OledGrph.c     
 	
-${OBJECTDIR}/ChrFont0.o: ChrFont0.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/ChrFont0.o.d 
-	@${RM} ${OBJECTDIR}/ChrFont0.o 
-	@${FIXDEPS} "${OBJECTDIR}/ChrFont0.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/ChrFont0.o.d" -o ${OBJECTDIR}/ChrFont0.o ChrFont0.c     
+${OBJECTDIR}/_ext/2109661110/PmodOLED.o: ../mylib/PmodOLED.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/PmodOLED.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d" -o ${OBJECTDIR}/_ext/2109661110/PmodOLED.o ../mylib/PmodOLED.c     
 	
 else
 ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
@@ -143,41 +143,41 @@ ${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/main.o 
 	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c     
 	
-${OBJECTDIR}/delay.o: delay.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/delay.o.d 
-	@${RM} ${OBJECTDIR}/delay.o 
-	@${FIXDEPS} "${OBJECTDIR}/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/delay.o.d" -o ${OBJECTDIR}/delay.o delay.c     
+${OBJECTDIR}/_ext/2109661110/ChrFont0.o: ../mylib/ChrFont0.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/ChrFont0.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/ChrFont0.o.d" -o ${OBJECTDIR}/_ext/2109661110/ChrFont0.o ../mylib/ChrFont0.c     
 	
-${OBJECTDIR}/OledChar.o: OledChar.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/OledChar.o.d 
-	@${RM} ${OBJECTDIR}/OledChar.o 
-	@${FIXDEPS} "${OBJECTDIR}/OledChar.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/OledChar.o.d" -o ${OBJECTDIR}/OledChar.o OledChar.c     
+${OBJECTDIR}/_ext/2109661110/delay.o: ../mylib/delay.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/delay.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/delay.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/delay.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/delay.o.d" -o ${OBJECTDIR}/_ext/2109661110/delay.o ../mylib/delay.c     
 	
-${OBJECTDIR}/OledGrph.o: OledGrph.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/OledGrph.o.d 
-	@${RM} ${OBJECTDIR}/OledGrph.o 
-	@${FIXDEPS} "${OBJECTDIR}/OledGrph.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/OledGrph.o.d" -o ${OBJECTDIR}/OledGrph.o OledGrph.c     
+${OBJECTDIR}/_ext/2109661110/FillPat.o: ../mylib/FillPat.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/FillPat.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/FillPat.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/FillPat.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/FillPat.o.d" -o ${OBJECTDIR}/_ext/2109661110/FillPat.o ../mylib/FillPat.c     
 	
-${OBJECTDIR}/PmodOLED.o: PmodOLED.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/PmodOLED.o.d 
-	@${RM} ${OBJECTDIR}/PmodOLED.o 
-	@${FIXDEPS} "${OBJECTDIR}/PmodOLED.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/PmodOLED.o.d" -o ${OBJECTDIR}/PmodOLED.o PmodOLED.c     
+${OBJECTDIR}/_ext/2109661110/OledChar.o: ../mylib/OledChar.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledChar.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledChar.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/OledChar.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/OledChar.o.d" -o ${OBJECTDIR}/_ext/2109661110/OledChar.o ../mylib/OledChar.c     
 	
-${OBJECTDIR}/FillPat.o: FillPat.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/FillPat.o.d 
-	@${RM} ${OBJECTDIR}/FillPat.o 
-	@${FIXDEPS} "${OBJECTDIR}/FillPat.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/FillPat.o.d" -o ${OBJECTDIR}/FillPat.o FillPat.c     
+${OBJECTDIR}/_ext/2109661110/OledGrph.o: ../mylib/OledGrph.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledGrph.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/OledGrph.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/OledGrph.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/OledGrph.o.d" -o ${OBJECTDIR}/_ext/2109661110/OledGrph.o ../mylib/OledGrph.c     
 	
-${OBJECTDIR}/ChrFont0.o: ChrFont0.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/ChrFont0.o.d 
-	@${RM} ${OBJECTDIR}/ChrFont0.o 
-	@${FIXDEPS} "${OBJECTDIR}/ChrFont0.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/ChrFont0.o.d" -o ${OBJECTDIR}/ChrFont0.o ChrFont0.c     
+${OBJECTDIR}/_ext/2109661110/PmodOLED.o: ../mylib/PmodOLED.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/_ext/2109661110" 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d 
+	@${RM} ${OBJECTDIR}/_ext/2109661110/PmodOLED.o 
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d" $(SILENT) -rsi ${MP_CC_DIR}../  -c ${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2109661110/PmodOLED.o.d" -o ${OBJECTDIR}/_ext/2109661110/PmodOLED.o ../mylib/PmodOLED.c     
 	
 endif
 
