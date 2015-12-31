@@ -14,3 +14,14 @@ The PIC32MX has an ADC with multiple mode and configuration options. The ADC lib
 | ReadActiveBufferADC10()    |  Returns the buffer that is being written when Dual Buffer mode is in use.                |
 | ReadADC10()                |  Returns the vaule in the specified location of the ADC result buffer.                    |
 | SetChanADC10()             |  Configures the ADC input multiplexers.                     |
+
+# Higher Level Architecture
+<img src="https://cloud.githubusercontent.com/assets/6227984/12061421/46e2c81a-af53-11e5-8328-cc48b83b094c.png" width=400>
+
+# Waveform Generator
+
+<img src="https://cloud.githubusercontent.com/assets/6227984/12061086/72ec58c0-af4b-11e5-9ceb-9c8c1c69edc3.png" width = 400>
+
+# OLED Output
+
+<img src="https://cloud.githubusercontent.com/assets/6227984/12061283/e3db574e-af4f-11e5-8c3a-d269e0f29774.gif" width=500>
