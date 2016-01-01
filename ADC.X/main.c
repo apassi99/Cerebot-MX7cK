@@ -63,7 +63,7 @@ int main()
     mAD1IntEnable(1);
 
     char buf[13];
-	while (1) {
+    while (1) {
         OledClearBuffer();
         OledSetCursor(1, 0);
         sprintf(buf, "V ADC = %4X", VoltageADC);
