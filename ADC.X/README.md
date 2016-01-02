@@ -16,7 +16,7 @@ The PIC32MX has an ADC with multiple mode and configuration options. The ADC lib
 | SetChanADC10()             |  Configures the ADC input multiplexers.                     |
 
 # Higher Level Architecture
-<img src="https://cloud.githubusercontent.com/assets/6227984/12070777/d4cd4eee-b056-11e5-83ab-c3cd6b2e807f.png" width=400>
+<img src="https://cloud.githubusercontent.com/assets/6227984/12073883/2fce3b08-b103-11e5-8ba5-0c9a41900a49.png" width=400>
 
 # Waveform Generator
 
