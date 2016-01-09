@@ -1,6 +1,6 @@
 # Cerebot-MX7cK
 
-Mini projects on Digilent Cerebot MX7cK microcontroller board.
+Mini projects on Digilent's [Cerebot MX7cK microcontroller board] (https://www.digilentinc.com/Products/Detail.cfm?NavPath=2,398,1244&Prod=CEREBOT-MX7CK).
 
 <img src="https://cloud.githubusercontent.com/assets/6227984/12051780/10391e18-aed6-11e5-8c51-1c44f10bb44f.png" width=350>
 
